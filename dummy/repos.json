@@ -1,0 +1,39 @@
+{
+	"neo": {
+		"repos": [
+			{
+				"repoId": 123,
+				"repoName": "TIL"
+			},
+			{
+				"repoId": 456,
+				"repoName": "eduyu"
+			}
+		]
+	},
+
+	"john": {
+		"repos": []
+	},
+
+	"tak": {
+		"repos": []
+	},
+
+	"zzulu": {
+		"githubId": "zzulu",
+		"repos": []
+	},
+
+	"change": {
+		"repos": []
+	},
+
+	"junho": {
+		"repos": []
+	},
+
+	"justin": {
+		"repos": []
+	}
+}
