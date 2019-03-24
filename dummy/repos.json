@@ -2,11 +2,11 @@
 	"neo": {
 		"repos": [
 			{
-				"repoId": 123,
+				"repoId": "1q2w",
 				"repoName": "TIL"
 			},
 			{
-				"repoId": 456,
+				"repoId": "3e4r",
 				"repoName": "eduyu"
 			}
 		]
