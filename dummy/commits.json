@@ -1,19 +1,8 @@
-[
-	{
-		"repoId": 123,
-		"commits": [
-			"init repo",
-			"add index.html",
-			"add index.css",
-			"add index.js"
-		]
-	},
-	{
-		"repoId": 456,
-		"commits": [
-			"init repo",
-			"edu",
-			"yu"
-		]
-	}
-]
+{
+	"1q2w": [
+		"init repo",
+		"add index.html",
+		"add index.css",
+		"add index.js"
+	]
+}
