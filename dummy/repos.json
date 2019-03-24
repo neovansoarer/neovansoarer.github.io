@@ -1,14 +1,10 @@
-{
-	"neo": {
-		"repos": [
-			{
-				"repoId": "1q2w",
-				"repoName": "TIL"
-			},
-			{
-				"repoId": "3e4r",
-				"repoName": "eduyu"
-			}
-		]
+[
+	{
+		"id": "1q2w",
+		"name": "TIL"
+	},
+	{
+		"id": "3e4r",
+		"name": "eduyu"
 	}
-}
+]
