@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>씨저 싸ㅏㅏ이퍼</h1>
+    <div>
+        <label for="n">몇칸 밀까요</label>
+        <input type="text" id="n" value="10">
+    </div>
+    <div>
+        <label for="in">밀어 봅시다</label>
+        <input type="text" id="in" autofocus>
+    </div>
+    <p id="result"></p>
+    <script>
+        const numberArea = document.querySelector('#n');
+        const inputArea = document.querySelector('#in');
+        const resultArea = document.querySelector('#result');
+        
+        inputArea.addEventListener('input', e => {
+            const n = Number(numberArea.value);
+            const inputString = inputArea.value;
+            resultArea.innerHTML = inputString.split('').map(char => String.fromCharCode(char.charCodeAt() + n)).join('');
+        })
+    </script>
+</body>
+</html>
